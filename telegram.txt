@@ -1,0 +1,6 @@
+sudo apt-get install python-pip
+sudo pip install telepot
+git clone https://github.com/salmanfarisvp/TelegramBot.git 
+ bot = telepot.Bot('Bot Token') 
+  python telegrambot.py
+  
