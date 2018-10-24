@@ -4,3 +4,4 @@ cd SPI-Py
 sudo python setup.py install
 git clone https://github.com/mxgxw/MFRC522-python.git
 cd MFRC522-python
+pins(sda=24,sck=23.mosi=19,miso=21,gnd,rst=22,vcc)
