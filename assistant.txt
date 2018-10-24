@@ -1,0 +1,11 @@
+sudo apt-get install python3-dev pyhon-venv
+sudo apt-get install portaudio19-dev libffi-dev libssl-dev
+
+python3 -m venv env
+env/bin/pip install setuptools --upgrade
+source env/bin/activate
+python -m pip install --upgrade google-assistant-library
+python -m pip install  google-assistant-sdk[samples]
+pip install --upgrade google-auth--oauthlib[tool]
+google-oauthlib-tool --client-secrets -/googleassistant/credentials.json
+googlesamples-assistant-pushtotalk --project-id    --device-model-id
