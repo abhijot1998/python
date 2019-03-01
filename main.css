@@ -213,6 +213,13 @@ body{
     background-position: left top;
     color: #000000;
   }
+  button:hover{
+    background-position: left top;
+    color: white;
+    border-color:black;
+    shadow:2px 2px white;
+
+  }
  
  
   
