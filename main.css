@@ -213,14 +213,7 @@ body{
     background-position: left top;
     color: #000000;
   }
-  .content button:hover{
-    background-position: left bottom;
-    color: white;
-    border-color:black;
-    
-    shadow:2px 2px white;
-
-  }
+ 
  
   
   
